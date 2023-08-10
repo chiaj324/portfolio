@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    margin-block-start: 0;
+    padding: 0;
+}
+
+a {
+    color: initial;
+    text-decoration: none;
+}
+
+/* a:hover {
+    opacity: 0.25;
+} */
+
+#nav a:hover {
+    opacity: 0.25;
+}
+
+#name {
+    font-family: larken, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 175px;
+    margin-top: -40px;
+    text-align: center;
+}
+
+
+#nav {
+    font-family: indivisible, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: -40px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: minmax(max-content);
+    gap: 1px;
+}
+
+#work {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(max-content);
+    gap: 1px;
+    row-gap: 12px;
+    margin-top: 75px;
+    margin-left: 175px;
+    margin-right: 175px;
+    margin-bottom: 75px;
+}
+
+#work img {
+    margin: auto;
+    width: 350px;
+    height: 350px;
+    border: 0.5px solid gray;
+}
+
+#work img:hover {
+    opacity: 0.25;
+}
+
+#title {
+    font-family: larken, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+#description {
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 50px;
+    font-family: indivisible, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.75;
+}

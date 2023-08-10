@@ -1,0 +1,7 @@
+img {
+    display: block;
+    margin: auto;
+    width: 850px;
+    margin-bottom: 50px;
+    border: 0.5px solid black;
+}

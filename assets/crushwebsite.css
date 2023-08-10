@@ -1,0 +1,7 @@
+.gif {
+    display: block;
+    margin: auto;
+    width: 850px;
+    border: 0.5px solid gray;
+    margin-bottom: 50px;
+}

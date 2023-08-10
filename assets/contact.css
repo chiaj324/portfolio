@@ -1,0 +1,18 @@
+#info {
+    text-align: center;
+    margin: 150px;
+}
+
+#greeting {
+    font-family: larken, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+#email {
+    font-family: indivisible, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+}
