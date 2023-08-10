@@ -116,4 +116,7 @@ a {
         margin-right: 1.25em;
         margin-bottom: 2em;
     }
+    img {
+        border: 1.1px solid black;
+    }
 }
