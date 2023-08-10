@@ -86,3 +86,34 @@ a {
     font-style: normal;
     line-height: 1.75;
 }
+
+@media only screen and (max-device-width : 640px) {
+    #name {
+        font-size: 8em;
+        margin-top: -10px;
+        margin-bottom: 20px;
+    }
+    #nav {
+        gap: 1em;
+    }
+    #work {
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #work img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1em;
+    }
+    #title {
+        font-size: 2.5em;
+        margin-top: 60px;
+    }
+    #description {
+        margin-left: 1.25em;
+        margin-right: 1.25em;
+        margin-bottom: 2em;
+    }
+}

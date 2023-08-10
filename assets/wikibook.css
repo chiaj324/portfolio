@@ -5,3 +5,10 @@ img {
     margin-bottom: 50px;
     border: 0.5px solid black;
 }
+
+@media only screen and (max-device-width : 640px) {
+    img {
+        width: 20em;
+        margin-bottom: 1em;
+    }
+}

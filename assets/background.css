@@ -18,8 +18,15 @@
     text-align: right;
 }
 
-
-
 span {
     font-weight: 600;
+}
+
+@media only screen and (max-device-width : 640px) {
+    #resume {
+        margin: 1em;
+        margin-top: 60px;
+        grid-template-columns: 1fr 2fr;
+        margin-bottom: 60px;
+    }
 }

@@ -16,3 +16,10 @@
     font-weight: 300;
     font-size: 20px;
 }
+
+@media only screen and (max-device-width : 640px) {
+    #info {
+        margin: 1em;
+        margin-top: 8em;
+    }
+}
