@@ -119,4 +119,7 @@ a {
     img {
         border: 1.1px solid black;
     }
+    .bottom {
+        height: 6em;
+    }
 }
