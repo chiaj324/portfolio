@@ -11,4 +11,7 @@
         width: 20em;
         margin-bottom: 1em;
     }
+    body {
+        margin-bottom: 6em;
+    }
 }
