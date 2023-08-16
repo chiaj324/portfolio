@@ -123,3 +123,20 @@ a {
         height: 6em;
     }
 }
+
+@media only screen and (max-device-width : 1140px) {
+    #work {
+        margin-left: 65px;
+        gap: 12px;
+    }
+    #work img {
+        width: 325px;
+        height: 325px;
+    }
+}
+
+@media only screen and (max-device-width : 1065px) {
+    #work {
+        margin-left: 3%;
+    }
+}
